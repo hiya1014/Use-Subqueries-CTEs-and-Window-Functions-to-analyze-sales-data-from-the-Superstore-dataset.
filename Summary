@@ -1,0 +1,7 @@
+In this assignment, I performed advanced SQL-based data analysis on the Superstore dataset using SQLite in Jupyter Notebook. I first loaded the raw dataset into a database table (superstore_raw) and then created separate customers, orders, and products tables using SELECT DISTINCT statements.
+
+To analyze the data, I applied Subqueries to identify orders with sales above the average and to find the highest-value order for each customer. I used Common Table Expressions (CTEs) to calculate customer-wise total sales and perform reusable aggregations. Additionally, I implemented Window Functions such as ROW_NUMBER() and RANK() to rank customers based on sales performance and analyze ordering patterns.
+
+I also combined JOINs, CTEs, and Window Functions to generate comprehensive business insights, including customer rankings, top-performing customers, low-performing customers, single-order customers, and customers with above-average sales. The analysis helped in understanding customer purchasing behavior and sales performance across the dataset.
+
+Through this assignment, I gained practical experience in advanced SQL concepts, data transformation, query optimization, and business-oriented data analysis using SQLite and Jupyter Notebook.
